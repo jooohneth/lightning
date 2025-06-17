@@ -1,6 +1,7 @@
 import ScrambledText from "@/components/ui/scramble-text";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { Zap } from "lucide-react";
 
 const CTA = () => {
   return (
@@ -23,11 +24,16 @@ const CTA = () => {
         Apply!
       </ScrambledText>
 
-      {/* <div className="flex justify-center pt-20">
-        <Button className="font-bold text-2xl bg-white/10 backdrop-blur-xl border border-white/30 rounded-2xl p-8 flex flex-col items-center text-center hover:bg-white/10 hover:border-white/40 transition-all duration-500 shadow-2xl shadow-black/20">
-          Get Funded
+      <div className="flex justify-center pt-25">
+        <Button
+          size="lg"
+          variant="outline"
+          className="font-semibold text-4xl py-8 px-16 bg-white/20 border-none rounded-2xl flex flex-row items-center gap-4"
+        >
+          <span>Get Funded</span>
+          <Zap className="!w-8 !h-8 rotate-0 flex-shrink-0" />
         </Button>
-      </div> */}
+      </div>
     </div>
   );
 };

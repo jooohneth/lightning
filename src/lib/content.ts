@@ -10,7 +10,7 @@ export const data: Data[] = [
     heading: "Fast",
     title: "Lightning Fast Funding",
     description:
-      "We're fast... like lightning fast. No Builder will wait for more than 7 days to get a reply.",
+      "We're fast... like lightning fast. We aim to process applications immidiately - No Builder will wait for more than 7 days to get a reply.",
     img: "/card/1.jpg",
   },
   {
