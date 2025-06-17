@@ -1,0 +1,39 @@
+import React from "react";
+
+const Footer = () => {
+  return (
+    <footer
+      className="h-[30vh] w-full relative flex items-center justify-center"
+      style={{
+        backgroundImage: "url('/bg2.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed",
+      }}
+    >
+      {/* Overlay for better text readability */}
+      <div className="absolute inset-0 bg-black/40"></div>
+
+      {/* Footer Content */}
+      <div className="relative z-10 text-center text-[#ffffe4] font-mono">
+        <div className="flex flex-col items-center gap-4">
+          <h3 className="text-2xl font-semibold uppercase tracking-wide">
+            Lightning Grants
+          </h3>
+          <p className="text-sm opacity-80">The only way to get funded.</p>
+          <div className="flex gap-6 text-xs uppercase tracking-wider">
+            <span>© 2024</span>
+            <span>•</span>
+            <span>Terms</span>
+            <span>•</span>
+            <span>Privacy</span>
+            <span>•</span>
+            <span>Contact</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
