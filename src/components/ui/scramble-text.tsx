@@ -30,7 +30,7 @@ const ScrambledText: React.FC<ScrambledTextProps> = ({
 }) => {
   const rootRef = useRef<HTMLDivElement | null>(null);
   const hasAnimated = useRef(false);
-  const splitRef = useRef<any>(null);
+  const splitRef = useRef<SplitText | null>(null);
 
   useEffect(() => {
     if (!rootRef.current) return;
@@ -84,7 +84,7 @@ const ScrambledText: React.FC<ScrambledTextProps> = ({
     const handleMove = (e: PointerEvent) => {
       if (!splitRef.current) return;
 
-      splitRef.current.chars.forEach((el: HTMLElement) => {
+      splitRef.current.chars.forEach((el: Element) => {
         const c = el as HTMLElement;
         const { left, top, width, height } = c.getBoundingClientRect();
         const dx = e.clientX - (left + width / 2);
