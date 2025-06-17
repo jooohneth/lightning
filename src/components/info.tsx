@@ -1,5 +1,6 @@
 import ScrambledText from "@/components/ui/scramble-text";
-import Grid from "./bento-grid";
+import InfoCard from "@/components/infoCard";
+import { data, type Data } from "@/lib/content";
 
 const Info = () => {
   return (
@@ -16,7 +17,11 @@ const Info = () => {
         </ScrambledText>
       </div>
 
-      <Grid />
+      <div className="flex flex-row gap-20 pt-20 w-[100%] mx-auto">
+        {data.map((item: Data, i: number) => (
+          <InfoCard key={i} {...item} />
+        ))}
+      </div>
     </div>
   );
 };

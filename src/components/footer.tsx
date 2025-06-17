@@ -5,7 +5,7 @@ const Footer = () => {
     <footer
       className="h-[30vh] w-full relative flex items-center justify-center"
       style={{
-        backgroundImage: "url('/bg2.jpg')",
+        backgroundImage: "url('/bg1.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -20,15 +20,13 @@ const Footer = () => {
           <h3 className="text-2xl font-semibold uppercase tracking-wide">
             Lightning Grants
           </h3>
-          <p className="text-sm opacity-80">The only way to get funded.</p>
+          <p className="text-sm opacity-80">Fuel for your fist mile.</p>
           <div className="flex gap-6 text-xs uppercase tracking-wider">
-            <span>© 2024</span>
+            <span>© 2025</span>
             <span>•</span>
-            <span>Terms</span>
+            <span>Telegram</span>
             <span>•</span>
-            <span>Privacy</span>
-            <span>•</span>
-            <span>Contact</span>
+            <span>X.COM</span>
           </div>
         </div>
       </div>

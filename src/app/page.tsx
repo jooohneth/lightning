@@ -6,9 +6,9 @@ import Footer from "@/components/footer";
 const Home = () => {
   return (
     <div
-      className="font-mono h-screen overflow-y-scroll snap-y snap-mandatory"
+      className="font-mono h-screen overflow-y-scroll snap-y snap-mandatory text-[#ffffe4] "
       style={{
-        backgroundImage: "url('/bg3.jpg')",
+        backgroundImage: "url('/bg/bg3.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

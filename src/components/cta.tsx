@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 
 const CTA = () => {
   return (
-    <div className="flex flex-col text-[#ffffe4] uppercase">
+    <div className="flex flex-col text-[#ffffe4] uppercase justify-center items-center">
       <Image
         src="/lightning.png"
         alt="Lightning Grants"
-        width={250}
-        height={250}
+        width={300}
+        height={300}
         className="mx-auto"
       />
 
@@ -23,11 +23,11 @@ const CTA = () => {
         Apply!
       </ScrambledText>
 
-      <div className="flex justify-center pt-30">
-        <Button className="font-bold text-2xl bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-8 flex flex-col items-center text-center hover:bg-white/10 hover:border-white/40 transition-all duration-500 shadow-2xl shadow-black/20">
-          Get Funded ⚡
+      {/* <div className="flex justify-center pt-20">
+        <Button className="font-bold text-2xl bg-white/10 backdrop-blur-xl border border-white/30 rounded-2xl p-8 flex flex-col items-center text-center hover:bg-white/10 hover:border-white/40 transition-all duration-500 shadow-2xl shadow-black/20">
+          Get Funded
         </Button>
-      </div>
+      </div> */}
     </div>
   );
 };
