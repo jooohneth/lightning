@@ -18,7 +18,7 @@ const CTA = () => {
         <Button
           size="lg"
           variant="outline"
-          className="font-semibold text-3xl py-8 px-16 bg-white/20 border-none rounded-2xl flex flex-row items-center gap-4 transition-all duration-400"
+          className="font-semibold text-3xl py-8 px-16 md:bg-white/20 bg-[#65B3AE] text-black md:text-[#ffffe4] border-none rounded-2xl flex flex-row items-center gap-4 transition-all duration-400"
         >
           <span>Apply now</span>
           <Zap className="!w-8 !h-8 rotate-0 flex-shrink-0" />

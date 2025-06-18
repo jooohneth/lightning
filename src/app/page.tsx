@@ -5,24 +5,17 @@ import Footer from "@/components/footer";
 
 const Home = () => {
   return (
-    <div
-      className="font-mono h-screen overflow-y-scroll snap-y snap-mandatory text-[#ffffe4] "
-      style={{
-        backgroundImage: "url('/bg/bg-main.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
-      <div className="snap-start h-screen w-full relative flex items-center justify-center">
+    <div className="font-mono min-h-screen md:h-screen md:overflow-y-scroll md:snap-y md:snap-mandatory text-[#ffffe4] md:bg-center md:bg-cover md:bg-[url('/bg/bg-main.jpg')] bg-black">
+      <div className="rounded-b-2xl md:rounded-none min-h-screen md:snap-start md:h-screen w-full relative z-10 flex items-center justify-center bg-[url('/bg/bg-mobile.jpg')] md:bg-none bg-cover bg-center">
         <Hero />
       </div>
-      <div className="snap-start h-screen w-full flex justify-center items-center py-30">
+      <div className="min-h-screen md:snap-start md:h-screen w-full relative z-10 flex justify-center items-center py-30">
         <Info />
       </div>
-      <div className="snap-start h-screen w-full flex justify-center py-20">
+      <div className="min-h-screen md:snap-start md:h-screen w-full relative z-10 flex justify-center py-20">
         <CTA />
       </div>
-      <div className="snap-start">
+      <div className="md:snap-start">
         <Footer />
       </div>
     </div>
