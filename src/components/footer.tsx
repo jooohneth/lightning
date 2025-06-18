@@ -5,7 +5,7 @@ const Footer = () => {
     <footer
       className="h-[30vh] w-full relative flex items-center justify-center"
       style={{
-        backgroundImage: "url('/bg1.jpg')",
+        backgroundImage: "url('/bg/bg-footer-c.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
