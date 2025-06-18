@@ -8,7 +8,7 @@ const Home = () => {
     <div
       className="font-mono h-screen overflow-y-scroll snap-y snap-mandatory text-[#ffffe4] "
       style={{
-        backgroundImage: "url('/bg/bg-main-c.jpg')",
+        backgroundImage: "url('/bg/bg-main.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
