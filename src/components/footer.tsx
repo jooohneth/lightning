@@ -20,7 +20,9 @@ const Footer = () => {
           <h3 className="text-2xl font-semibold uppercase tracking-wide">
             Lightning Grants
           </h3>
-          <p className="text-sm opacity-80">Fuel for your fist mile.</p>
+          <p className="text-sm opacity-80 uppercase">
+            First to Back the First to Build.
+          </p>
           <div className="flex gap-6 text-xs uppercase tracking-wider">
             <span>© 2025</span>
             <span>•</span>

@@ -17,7 +17,7 @@ const Info = () => {
         </ScrambledText>
       </div>
 
-      <div className="flex flex-row gap-20 pt-20 w-[100%] mx-auto">
+      <div className="flex flex-row gap-20 pt-20 w-[100%] mx-auto items-start">
         {data.map((item: Data, i: number) => (
           <InfoCard key={i} {...item} />
         ))}

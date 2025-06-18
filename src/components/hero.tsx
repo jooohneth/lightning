@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
 
         <div className="text-4xl font-medium uppercase p-2">
-          Fuel for your fist mile.
+          First to Back the First to Build.
         </div>
       </div>
     </div>
