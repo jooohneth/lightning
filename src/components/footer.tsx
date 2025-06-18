@@ -11,10 +11,8 @@ const Footer = () => {
         backgroundAttachment: "fixed",
       }}
     >
-      {/* Overlay for better text readability */}
       <div className="absolute inset-0 bg-black/40"></div>
 
-      {/* Footer Content */}
       <div className="relative z-10 text-center text-[#ffffe4] font-mono">
         <div className="flex flex-col items-center gap-4">
           <h3 className="text-2xl font-semibold uppercase tracking-wide">
